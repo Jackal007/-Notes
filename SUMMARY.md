@@ -14,12 +14,12 @@
     * [简单编辑](ji-ben-vi/jian-dan-bian-ji.md)
     * [查找](ji-ben-vi/cha-zhao.md)
     * [高档编辑](ji-ben-vi/gao-dang-bian-ji.md)
-* [其他](qi-ta.md)
-  * java构建工具
-  * [http和https](qi-ta/httphe-https.md)
-  * [跨网站请求CSRF](qi-ta/kua-wang-zhan-qing-qiu-csrf.md)
 * [网络服务器](wang-luo-fu-wu-qi.md)
   * [Tomcat](wang-luo-fu-wu-qi/tomcat.md)
 * [Spring](spring.md)
   * 看法
+* [其他](qi-ta.md)
+  * java构建工具
+  * [http和https](qi-ta/httphe-https.md)
+  * [跨网站请求CSRF](qi-ta/kua-wang-zhan-qing-qiu-csrf.md)
 
