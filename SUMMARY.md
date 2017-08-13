@@ -22,4 +22,6 @@
   * java构建工具
   * [http和https](qi-ta/httphe-https.md)
   * [跨网站请求CSRF](qi-ta/kua-wang-zhan-qing-qiu-csrf.md)
+* [python爬虫](pythonpa-chong.md)
+  * [反爬虫](pythonpa-chong/fan-pa-chong.md)
 
