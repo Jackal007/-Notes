@@ -6,8 +6,6 @@
 
 在新窗口中打开一个文件：split filename.xx
 
-
-
 强制执行一条命令：command!
 
 保存文件:w
@@ -15,4 +13,6 @@
 保存并退出文:wq
 
 强制退出:q!
+
+![](/assets/进入vim.png)
 
