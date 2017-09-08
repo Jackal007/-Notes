@@ -25,4 +25,9 @@
 * [python爬虫](pythonpa-chong.md)
   * [反爬虫](pythonpa-chong/fan-pa-chong.md)
 * 数据库
+* [正则表达式](zheng-ze-biao-da-shi.md)
+  * [非打印字符](zheng-ze-biao-da-shi/fei-da-yin-zi-fu.md)
+  * [特殊字符](zheng-ze-biao-da-shi/te-shu-zi-fu.md)
+  * [限定符](zheng-ze-biao-da-shi/xian-ding-fu.md)
+  * [定位符](zheng-ze-biao-da-shi/ding-wei-fu.md)
 
