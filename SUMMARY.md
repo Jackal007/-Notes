@@ -16,6 +16,11 @@
   * [配置](pei-zhi.md)
 * [python爬虫](pythonpa-chong.md)
   * [反爬虫](pythonpa-chong/fan-pa-chong.md)
+  * [常用包](pythonpa-chong/chang-yong-bao.md)
+    * BeautifulSoup
+    * [requests](pythonpa-chong/chang-yong-bao/requests.md)
+      * [URL 传参 / 获取请求的 URL](pythonpa-chong/chang-yong-bao/requests/url-chuan-can-huo-qu-qing-qiu-de-url.md)
+      * [HTTP 状态码 / 重定向跳转](pythonpa-chong/chang-yong-bao/requests/http-zhuang-tai-ma-zhong-ding-xiang-tiao-zhuan.md)
 * [数据库](shu-ju-ku.md)
   * [调优](shu-ju-ku/diao-you.md)
 * [AOP](aop.md)
@@ -29,4 +34,5 @@
   * [Tomcat](wang-luo-fu-wu-qi/tomcat.md)
 * [Docker](docker.md)
 * [其他](qi-ta.md)
+  * [重定向和转发的区别](qi-ta/zhong-ding-xiang-he-zhuan-fa-de-qu-bie.md)
 
