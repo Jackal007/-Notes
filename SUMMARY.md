@@ -17,7 +17,7 @@
 * [python爬虫](pythonpa-chong.md)
   * [反爬虫](pythonpa-chong/fan-pa-chong.md)
   * [常用包](pythonpa-chong/chang-yong-bao.md)
-    * BeautifulSoup
+    * [BeautifulSoup](pythonpa-chong/chang-yong-bao/beautifulsoup.md)
     * [Requests](pythonpa-chong/chang-yong-bao/requests.md)
       * [requests](pythonpa-chong/chang-yong-bao/requests/requests.md)
       * [response](pythonpa-chong/chang-yong-bao/requests/response.md)
@@ -25,6 +25,7 @@
       * [session](pythonpa-chong/chang-yong-bao/requests/session.md)
       * [exceptions](pythonpa-chong/chang-yong-bao/requests/exceptions.md)
       * [配置](pythonpa-chong/chang-yong-bao/requests/pei-zhi.md)
+    * [Scrapy](pythonpa-chong/chang-yong-bao/scrapy.md)
 * [数据库](shu-ju-ku.md)
   * [调优](shu-ju-ku/diao-you.md)
 * [AOP](aop.md)
@@ -39,4 +40,6 @@
 * [Docker](docker.md)
 * [其他](qi-ta.md)
   * [重定向和转发的区别](qi-ta/zhong-ding-xiang-he-zhuan-fa-de-qu-bie.md)
+  * [查看笔记本剩余电量](qi-ta/cha-kan-bi-ji-ben-sheng-yu-dian-liang.md)
+  * [术语](qi-ta/zhu-yu.md)
 
