@@ -7,13 +7,15 @@ import requests
 
 cs_url = 'http://httpbin.org'
 
-r = requests.get("%s/%s" % (cs_url, 'get'))
-r = requests.post("%s/%s" % (cs_url, 'post'))
-r = requests.put("%s/%s" % (cs_url, 'put'))
-r = requests.delete("%s/%s" % (cs_url, 'delete'))
-r = requests.patch("%s/%s" % (cs_url, 'patch'))
-r = requests.options("%s/%s" % (cs_url, 'get'))
+r = requests.get(url, **kwargs)
+r = requests.post(url, data=None, **kwargs)
+r = requests.put(url, data=None, **kwargs)
+r = requests.patch(url, data=None, **kwargs)
+r = requests.delete(url, **kwargs)
+r = requests.options(url, **kwargs)
 ```
+
+> DOC——[http://docs.python-requests.org/en/v0.10.6/api/\#requests.Response.iter\_content](http://docs.python-requests.org/en/v0.10.6/api/#requests.Response.iter_content)
 
 
 
