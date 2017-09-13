@@ -18,6 +18,7 @@
   * [反爬虫](pythonpa-chong/fan-pa-chong.md)
   * [常用包](pythonpa-chong/chang-yong-bao.md)
     * [BeautifulSoup](pythonpa-chong/chang-yong-bao/beautifulsoup.md)
+      * [搜索文档树](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu.md)
     * [Requests](pythonpa-chong/chang-yong-bao/requests.md)
       * [requests](pythonpa-chong/chang-yong-bao/requests/requests.md)
       * [response](pythonpa-chong/chang-yong-bao/requests/response.md)
