@@ -19,6 +19,11 @@
   * [常用包](pythonpa-chong/chang-yong-bao.md)
     * [BeautifulSoup](pythonpa-chong/chang-yong-bao/beautifulsoup.md)
       * [搜索文档树](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu.md)
+      * [对象](pythonpa-chong/chang-yong-bao/beautifulsoup/dui-xiang.md)
+        * [Tag](pythonpa-chong/chang-yong-bao/beautifulsoup/dui-xiang/tag.md)
+        * [NavigableString](pythonpa-chong/chang-yong-bao/beautifulsoup/dui-xiang/navigablestring.md)
+        * BeautifulSoup 
+        * Comment 
     * [Requests](pythonpa-chong/chang-yong-bao/requests.md)
       * [requests](pythonpa-chong/chang-yong-bao/requests/requests.md)
       * [response](pythonpa-chong/chang-yong-bao/requests/response.md)
