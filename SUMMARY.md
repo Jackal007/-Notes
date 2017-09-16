@@ -41,6 +41,18 @@
           * [.next\_elements 和 .previous\_elements](pythonpa-chong/chang-yong-bao/beautifulsoup/bian-li-wen-dang-shu/xiong-di-jie-dian/nextelements-he-previouselements.md)
       * [搜索文档树](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu.md)
         * 过滤器
+          * [字符串](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/zi-fu-chuan.md)
+          * [正则表达式](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/zheng-ze-biao-da-shi.md)
+          * [列表](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/lie-biao.md)
+          * [True](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/true.md)
+          * [方法](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/fang-fa.md)
+        * [find\_all\(\)](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/findall.md)
+          * [name参数](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/findall/namecan-shu.md)
+          * [keyword参数](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/findall/keywordcan-shu.md)
+          * [按CSS搜索](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/findall/an-css-sou-suo.md)
+          * [string参数](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/findall/stringcan-shu.md)
+          * [limit参数](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/findall/limitcan-shu.md)
+          * [recursive 参数](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/findall/recursive-can-shu.md)
       * 修改文档树
     * [Requests](pythonpa-chong/chang-yong-bao/requests.md)
       * [requests](pythonpa-chong/chang-yong-bao/requests/requests.md)
