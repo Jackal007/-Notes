@@ -8,7 +8,7 @@ soup.select("p nth-of-type(3)")
 # [<p class="story">...</p>]
 ```
 
-通过tag标签逐层查找:
+#### 通过tag标签逐层查找:
 
 ```
 soup.select("body a")
@@ -20,7 +20,7 @@ soup.select("html head title")
 # [<title>The Dormouse's story</title>]
 ```
 
-找到某个tag标签下的直接子标签[\[6\]](http://beautifulsoup.readthedocs.io/zh_CN/latest/#id93):
+#### 找到某个tag标签下的直接子标签:
 
 ```
 soup.select("head > title")
@@ -41,7 +41,7 @@ soup.select("body > a")
 # []
 ```
 
-找到兄弟节点标签:
+#### 找到兄弟节点标签:
 
 ```
 soup.select("#link1 ~ .sister")
@@ -52,7 +52,7 @@ soup.select("#link1 + .sister")
 # [<a class="sister" href="http://example.com/lacie" id="link2">Lacie</a>]
 ```
 
-通过CSS的类名查找:
+#### 通过CSS的类名查找:
 
 ```
 soup.select(".sister")
@@ -66,7 +66,7 @@ soup.select("[class~=sister]")
 #  <a class="sister" href="http://example.com/tillie" id="link3">Tillie</a>]
 ```
 
-通过tag的id查找:
+#### 通过tag的id查找:
 
 ```
 soup.select("#link1")
@@ -76,7 +76,7 @@ soup.select("a#link2")
 # [<a class="sister" href="http://example.com/lacie" id="link2">Lacie</a>]
 ```
 
-同时用多种CSS选择器查询元素:
+#### 同时用多种CSS选择器查询元素:
 
 ```
 soup.select("#link1,#link2")
@@ -84,7 +84,7 @@ soup.select("#link1,#link2")
 #  <a class="sister" href="http://example.com/lacie" id="link2">Lacie</a>]
 ```
 
-通过是否存在某个属性来查找:
+#### 通过是否存在某个属性来查找:
 
 ```
 soup.select('a[href]')
@@ -93,7 +93,7 @@ soup.select('a[href]')
 #  <a class="sister" href="http://example.com/tillie" id="link3">Tillie</a>]
 ```
 
-通过属性的值来查找:
+#### 通过属性的值来查找:
 
 ```
 soup.select('a[href="http://example.com/elsie"]')
@@ -111,7 +111,7 @@ soup.select('a[href*=".com/el"]')
 # [<a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>]
 ```
 
-通过语言设置来查找:
+#### 通过语言设置来查找:
 
 ```
 multilingual_markup = """
@@ -127,7 +127,7 @@ multilingual_soup.select('p[lang|=en]')
 #  <p lang="en-gb">Pip-pip, old fruit</p>]
 ```
 
-返回查找到的元素的第一个
+#### 返回查找到的元素的第一个
 
 ```
 soup.select_one(".sister")
