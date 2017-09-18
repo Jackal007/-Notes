@@ -64,6 +64,16 @@
       * [修改文档树](pythonpa-chong/chang-yong-bao/beautifulsoup/xiu-gai-wen-dang-shu.md)
         * 修改tag的名称和属性
         * 修改 .string
+        * append\(\)
+        * NavigableString\(\) 和 .new\_tag\(\)
+        * insert\(\)
+        * insert\_before\(\) 和 insert\_after\(\)
+        * clear\(\)
+        * extract\(\)
+        * decompose\(\)
+        * replace\_with\(\)
+        * wrap\(\)
+        * unwrap\(\)
     * [Requests](pythonpa-chong/chang-yong-bao/requests.md)
       * [requests](pythonpa-chong/chang-yong-bao/requests/requests.md)
       * [response](pythonpa-chong/chang-yong-bao/requests/response.md)
