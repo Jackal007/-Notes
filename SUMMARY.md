@@ -60,7 +60,7 @@
         * find\_previous\_siblings\(\) 和 find\_previous\_sibling\(\)
         * find\_all\_next\(\) 和 find\_next\(\)
         * find\_all\_previous\(\) 和 find\_previous\(\)
-        * CSS选择器
+        * [CSS选择器](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/cssxuan-ze-qi.md)
       * [修改文档树](pythonpa-chong/chang-yong-bao/beautifulsoup/xiu-gai-wen-dang-shu.md)
         * 修改tag的名称和属性
         * 修改 .string
