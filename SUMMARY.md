@@ -54,7 +54,16 @@
           * [limit参数](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/findall/limitcan-shu.md)
           * [recursive 参数](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/findall/recursive-can-shu.md)
         * [像调用 find\_all\(\) 一样调用tag](pythonpa-chong/chang-yong-bao/beautifulsoup/xiang-diao-yong-find-all-yi-yang-diao-yong-tag.md)
+        * find\(\)
+        * find\_parents\(\) 和 find\_parent\(\)
+        * find\_next\_siblings\(\) 合 find\_next\_sibling\(\)
+        * find\_previous\_siblings\(\) 和 find\_previous\_sibling\(\)
+        * find\_all\_next\(\) 和 find\_next\(\)
+        * find\_all\_previous\(\) 和 find\_previous\(\)
+        * CSS选择器
       * [修改文档树](pythonpa-chong/chang-yong-bao/beautifulsoup/xiu-gai-wen-dang-shu.md)
+        * 修改tag的名称和属性
+        * 修改 .string
     * [Requests](pythonpa-chong/chang-yong-bao/requests.md)
       * [requests](pythonpa-chong/chang-yong-bao/requests/requests.md)
       * [response](pythonpa-chong/chang-yong-bao/requests/response.md)
