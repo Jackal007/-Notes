@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [版本号控制](ban-ben-hao-kong-zhi.md)
 * [VIM](vim.md)
   * [基本VI](ji-ben-vi.md)
     * [打开关闭保存文件](ji-ben-vi/da-kai-guan-bi-bao-cun-wen-jian.md)
@@ -94,8 +95,5 @@
 * [网络服务器](wang-luo-fu-wu-qi.md)
   * [Tomcat](wang-luo-fu-wu-qi/tomcat.md)
 * [Docker](docker.md)
-* [其他](qi-ta.md)
-  * [重定向和转发的区别](qi-ta/zhong-ding-xiang-he-zhuan-fa-de-qu-bie.md)
-  * [查看笔记本剩余电量](qi-ta/cha-kan-bi-ji-ben-sheng-yu-dian-liang.md)
-  * [术语](qi-ta/zhu-yu.md)
+* 版本号控制
 
