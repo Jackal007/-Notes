@@ -89,6 +89,9 @@
       * [exceptions](pythonpa-chong/chang-yong-bao/requests/exceptions.md)
       * [配置](pythonpa-chong/chang-yong-bao/requests/pei-zhi.md)
     * [Scrapy](pythonpa-chong/chang-yong-bao/scrapy.md)
+  * 其他
+    * [pywifi](pythonpa-chong/pywifi.md)
+      * [const](pythonpa-chong/pywifi/const.md)
 * [数据库](shu-ju-ku.md)
   * [调优](shu-ju-ku/diao-you.md)
 * [Cookie](cookie.md)
