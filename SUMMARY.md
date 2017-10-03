@@ -92,6 +92,8 @@
   * 其他
     * [pywifi](pythonpa-chong/pywifi.md)
       * [const](pythonpa-chong/pywifi/const.md)
+      * [扫描附近的wifi](pythonpa-chong/pywifi/sao-miao-fu-jin-de-wifi.md)
+      * [连接wifi](pythonpa-chong/pywifi/lian-jie-wifi.md)
 * [数据库](shu-ju-ku.md)
   * [调优](shu-ju-ku/diao-you.md)
 * [Cookie](cookie.md)
