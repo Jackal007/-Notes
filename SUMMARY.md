@@ -45,7 +45,7 @@
           * [.next\_element 和 .previous\_element](pythonpa-chong/chang-yong-bao/beautifulsoup/bian-li-wen-dang-shu/xiong-di-jie-dian/nextelement-he-previouselement.md)
           * [.next\_elements 和 .previous\_elements](pythonpa-chong/chang-yong-bao/beautifulsoup/bian-li-wen-dang-shu/xiong-di-jie-dian/nextelements-he-previouselements.md)
       * [搜索文档树](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu.md)
-        * 过滤器
+        * [过滤器](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/guo-lv-qi.md)
           * [字符串](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/zi-fu-chuan.md)
           * [正则表达式](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/zheng-ze-biao-da-shi.md)
           * [列表](pythonpa-chong/chang-yong-bao/beautifulsoup/sou-suo-wen-dang-shu/lie-biao.md)
