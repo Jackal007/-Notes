@@ -21,7 +21,6 @@
     * [标记\(MARK\)](gao-dang-bian-ji/biao-8bb028-mark.md)
   * [配置](pei-zhi.md)
 * [python爬虫](pythonpa-chong.md)
-  * [反爬虫](pythonpa-chong/fan-pa-chong.md)
   * [常用包](pythonpa-chong/chang-yong-bao.md)
     * [BeautifulSoup](pythonpa-chong/chang-yong-bao/beautifulsoup.md)
       * [对象](pythonpa-chong/chang-yong-bao/beautifulsoup/dui-xiang.md)
