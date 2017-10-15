@@ -46,6 +46,11 @@
   * [图片服务器分离](gao-bing-fa/tu-pian-fu-wu-qi-fen-li.md)
   * 数据库集群和库表散列
   * [缓存](gao-bing-fa/huan-cun.md)
+    * [缓存在高并发下的问题](gao-bing-fa/huan-cun/huan-cun-zai-gao-bing-fa-xia-de-wen-ti.md)
+      * [缓存一致性问题](gao-bing-fa/huan-cun/huan-cun-yi-zhi-xing-wen-ti.md)
+      * [缓存并发问题](gao-bing-fa/huan-cun/huan-cun-bing-fa-wen-ti.md)
+      * [缓存穿透问题](gao-bing-fa/huan-cun/huan-cun-chuan-tou-wen-ti.md)
+      * 缓存颠簸问题
   * 镜像
   * 负载均衡
 
