@@ -50,7 +50,9 @@
       * [缓存一致性问题](gao-bing-fa/huan-cun/huan-cun-yi-zhi-xing-wen-ti.md)
       * [缓存并发问题](gao-bing-fa/huan-cun/huan-cun-bing-fa-wen-ti.md)
       * [缓存穿透问题](gao-bing-fa/huan-cun/huan-cun-chuan-tou-wen-ti.md)
-      * 缓存颠簸问题
+      * [缓存颠簸问题](gao-bing-fa/huan-cun/huan-cun-dian-bo-wen-ti.md)
+      * [缓存的雪崩现象](gao-bing-fa/huan-cun/huan-cun-de-xue-beng-xian-xiang.md)
+      * [缓存无底洞现象](gao-bing-fa/huan-cun/huan-cun-wu-di-dong-xian-xiang.md)
   * 镜像
   * 负载均衡
 
