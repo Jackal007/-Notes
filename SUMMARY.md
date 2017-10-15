@@ -41,4 +41,11 @@
 * [Docker](docker.md)
 * [AOP](aop.md)
 * [ORM](orm.md)
+* [高并发](gao-bing-fa.md)
+  * [HTML静态化](gao-bing-fa/htmljing-tai-hua.md)
+  * [图片服务器分离](gao-bing-fa/tu-pian-fu-wu-qi-fen-li.md)
+  * 数据库集群和库表散列
+  * [缓存](gao-bing-fa/huan-cun.md)
+  * 镜像
+  * 负载均衡
 
