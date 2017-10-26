@@ -49,7 +49,8 @@
       * [获取镜像](docker/shi-yong/shi-yong-jing-xiang/huo-qu-jing-xiang.md)
       * [列出镜像](docker/shi-yong/shi-yong-jing-xiang/lie-chu-jing-xiang.md)
       * [定制镜像](docker/shi-yong/shi-yong-jing-xiang/ding-zhi-jing-xiang.md)
-        * [COPY复制文件](docker/shi-yong/shi-yong-jing-xiang/ding-zhi-jing-xiang/copyfu-zhi-wen-jian.md)
+        * [COPY文件复制](docker/shi-yong/shi-yong-jing-xiang/ding-zhi-jing-xiang/copyfu-zhi-wen-jian.md)
+        * [ADD 更高级的文件复制](docker/shi-yong/shi-yong-jing-xiang/ding-zhi-jing-xiang/add-geng-gao-ji-de-wen-jian-fu-zhi.md)
     * 操作容器
     * 访问仓库
     * 数据管理
