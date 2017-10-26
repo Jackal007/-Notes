@@ -42,7 +42,6 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 ubuntu              16.04               f753707788c5        4 weeks ago         127 MB
 ubuntu              latest              f753707788c5        4 weeks ago         127 MB
 ubuntu              14.04               1e0c3dd64ccd        4 weeks ago         188 MB
-
 ```
 
 列出特定的某个镜像，也就是说指定仓库名和标签
