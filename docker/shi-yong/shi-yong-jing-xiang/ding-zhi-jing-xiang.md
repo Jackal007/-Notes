@@ -10,7 +10,7 @@ Dockerfile 是一个文本文件，其内包含了一条条的**指令\(Instruct
 
 在一个空白目录中，建立一个文本文件，并命名为`Dockerfile`：
 
-```
+```bash
 $ mkdir mynginx
 $ cd mynginx
 $ touch Dockerfile
@@ -18,7 +18,7 @@ $ touch Dockerfile
 
 其内容为：
 
-```
+```Dockerfile
 FROM nginx
 RUN echo '<h1>Hello, Docker!</h1>' > /usr/share/nginx/html/index.html
 ```
