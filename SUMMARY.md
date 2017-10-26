@@ -41,11 +41,14 @@
 * [Docker](docker.md)
   * [基本概念](docker/ji-ben-gai-nian.md)
     * [镜像](docker/ji-ben-gai-nian/jing-xiang.md)
+      * [利用commit理解镜像构成](docker/ji-ben-gai-nian/jing-xiang/li-yong-commit-li-jie-jing-xiang-gou-cheng.md)
     * [容器](docker/ji-ben-gai-nian/rong-qi.md)
     * [仓库](docker/ji-ben-gai-nian/cang-ku.md)
   * [使用](docker/shi-yong.md)
     * [使用镜像](docker/shi-yong/shi-yong-jing-xiang.md)
       * [获取镜像](docker/shi-yong/shi-yong-jing-xiang/huo-qu-jing-xiang.md)
+      * [列出镜像](docker/shi-yong/shi-yong-jing-xiang/lie-chu-jing-xiang.md)
+      * [定制镜像](docker/shi-yong/shi-yong-jing-xiang/ding-zhi-jing-xiang.md)
     * 操作容器
     * 访问仓库
     * 数据管理
