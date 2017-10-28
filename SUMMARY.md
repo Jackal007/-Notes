@@ -63,6 +63,8 @@
       * [配置文件](docker/shi-yong/fang-wen-cang-ku/pei-zhi-wen-jian.md)
     * 数据管理
       * 数据卷
+      * 数据卷容器
+      * 备份、恢复、迁移数据卷
     * 使用网络
     * 高级网络配置
     * 安全

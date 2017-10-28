@@ -37,7 +37,6 @@ Docker 的 Registry 利用配置文件提供了一些仓库的模板（flavor）
 
 ```
 export SETTINGS_FLAVOR=dev
-
 ```
 
 另外，配置文件中支持从环境变量中加载值，语法格式为`_env:VARIABLENAME[:DEFAULT]`。
@@ -71,7 +70,6 @@ dev:
 test:
     storage: local
     storage_path: /tmp/tmpdockertmp
-
 ```
 
 ### 选项 {#选项}
