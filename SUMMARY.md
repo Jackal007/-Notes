@@ -94,4 +94,9 @@
       * [缓存无底洞现象](gao-bing-fa/huan-cun/huan-cun-wu-di-dong-xian-xiang.md)
   * 镜像
   * 负载均衡
+* [大数据](da-shu-ju.md)
+  * 推荐算法
+  * 关联算法
+  * 分类算法
+  * 聚类算法
 
