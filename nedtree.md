@@ -63,19 +63,8 @@ MacVim 还可以借助快捷键来完成 tab 的关闭、切换
 cmd+w   关闭当前的 tab
 cmd+{   前一个 tab
 cmd+}   后一个 tab
-NerdTree 在 .vimrc 中的常用配置
 
-" 在 vim 启动的时候默认开启 NERDTree（autocmd 可以缩写为 au）
-autocmd VimEnter * NERDTree
 
-" 按下 F2 调出/隐藏 NERDTree
-map  :silent! NERDTreeToggle
-
-" 将 NERDTree 的窗口设置在 vim 窗口的右侧（默认为左侧）
-let NERDTreeWinPos="right"
-
-" 当打开 NERDTree 窗口时，自动显示 Bookmarks
-let NERDTreeShowBookmarks=1
 ```
 
 

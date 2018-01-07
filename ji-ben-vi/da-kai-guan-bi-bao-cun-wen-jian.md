@@ -1,3 +1,5 @@
+改变工作路劲：
+
 打开多个文件：Vim file1.xx file2.xx file3.xx
 
 切换到下一个文件：esc :bn
