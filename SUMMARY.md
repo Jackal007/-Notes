@@ -27,6 +27,8 @@
       * [用于操作符等待模式](pei-zhi/zi-ding-yi-kuai-jie-jian/yong-yu-cao-zuo-fu-deng-dai-mo-shi.md)
       * [用于插入模式](pei-zhi/zi-ding-yi-kuai-jie-jian/yong-yu-cha-ru-mo-shi.md)
       * [用于命令行模式](pei-zhi/zi-ding-yi-kuai-jie-jian/yong-yu-ming-ling-xing-mo-shi.md)
+  * 插件
+    * [NedTree](nedtree.md)
 * [数据库](shu-ju-ku.md)
   * [调优](shu-ju-ku/diao-you.md)
 * [Cookie](cookie.md)
