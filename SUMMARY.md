@@ -19,6 +19,7 @@
     * [缓冲区](gao-dang-bian-ji/huan-chong-qu.md)
     * [更多基本键的组合](gao-dang-bian-ji/geng-duo-ji-ben-jian-de-zu-he.md)
     * [标记\(MARK\)](gao-dang-bian-ji/biao-8bb028-mark.md)
+    * [打开多个窗口](gao-dang-bian-ji/fen-ping.md)
   * [配置](pei-zhi.md)
     * [自定义快捷键](pei-zhi/zi-ding-yi-kuai-jie-jian.md)
       * [用于普通模式](pei-zhi/zi-ding-yi-kuai-jie-jian/yong-yu-pu-tong-mo-shi.md)
