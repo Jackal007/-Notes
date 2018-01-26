@@ -108,4 +108,11 @@
   * 关联算法
   * 分类算法
   * 聚类算法
+* [HACKER](hacker.md)
+  * 黑网站
+  * [黑路由器](hacker/hei-lu-you-qi.md)
+  * [一些知识](hacker/yi-xie-zhi-shi.md)
+    * [SQL注入](hacker/yi-xie-zhi-shi/sqlzhu-ru.md)
+    * webshell
+    * [查一个网站的各种信息](hacker/yi-xie-zhi-shi/cha-yi-ge-wang-zhan-de-ge-zhong-xin-xi.md)
 
