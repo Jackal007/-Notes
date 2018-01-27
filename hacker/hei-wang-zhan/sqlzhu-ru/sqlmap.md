@@ -1,5 +1,7 @@
 ##### [https://www.secpulse.com/archives/4213.html](https://www.secpulse.com/archives/4213.html)
 
+##### https://www.cnblogs.com/ichunqiu/p/5805108.html
+
 # sqlmap
 
 sqlmap支持五种不同的注入模式：
