@@ -49,9 +49,10 @@ sqlmap -u "http://www.baidu.com/shownews.asp" –cookie “id=11″ –level 2�
 
 ### 从post数据包中注入
 
+```
 可以使用burpsuite或者temperdata等工具来抓取post包
-
-sqlmap -r “c:\tools\request.txt” -p “username” –dbms mysql 指定username参数
+sqlmap -r "c:\tools\request.txt" -p "username" –dbms mysql 指定username参数
+```
 
 ## 注入成功后
 
