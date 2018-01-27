@@ -110,7 +110,11 @@
   * 聚类算法
 * [HACKER](hacker.md)
   * [黑网站](hacker/hei-wang-zhan.md)
-    * sql注入
+    * [sql注入](hacker/hei-wang-zhan/sqlzhu-ru.md)
+      * [sqlmap](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap.md)
+        * [盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/mang-zhu-ru.md)
+          * [基于布尔的盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/ji-yu-bu-er-de-mang-zhu-ru.md)
+          * [基于时间的盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/ji-yu-shi-jian-de-mang-zhu-ru.md)
     * cc攻击
     * 旁注
     * 溢出
