@@ -128,7 +128,6 @@
         * [File system access（访问文件系统）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/file-system-accessff08-fang-wen-wen-jian-xi-tong-ff09.md)
         * [Operating system access（操作系统访问）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/operating-system-accessff08-cao-zuo-xi-tong-fang-wen-ff09.md)
         * [Windows注册表访问](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/windowszhu-ce-biao-fang-wen.md)
-        * Target（目标）
     * cc攻击
     * 旁注
     * 溢出
