@@ -1,6 +1,6 @@
 ##### [https://www.secpulse.com/archives/4213.html](https://www.secpulse.com/archives/4213.html)
 
-##### https://www.cnblogs.com/ichunqiu/p/5805108.html
+##### [https://www.cnblogs.com/ichunqiu/p/5805108.html](https://www.cnblogs.com/ichunqiu/p/5805108.html)
 
 # sqlmap
 
@@ -100,7 +100,7 @@ sqlmap -r "c:\tools\request.txt" –dbms mysql -D dedecms –search -C admin,pas
 
 | –file-read=RFILE | 从后端的数据库管理系统文件系统读取文件 （物理路径） |
 | :--- | :--- |
-| –file-write=WFILE | 编辑后端的数据库管理系统文件系统上的本地文件 （mssql xp\_shell） |
+| –file-write=WFILE | 编辑后端的数据库管理系统文件系统上的本地文件 （mysql xp\_shell） |
 | –file-dest=DFILE | 后端的数据库管理系统写入文件的绝对路径 |
 
 ```
