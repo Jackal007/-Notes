@@ -4,6 +4,17 @@
 
 * –os-cmd=OSCMD 执行操作系统命令
 * –os-shell 交互式的操作系统的shell
+  * ```
+    os-shell的执行条件有三个：
+
+    （1）网站必须是root权限
+
+    （2）攻击者需要知道网站的绝对路径
+
+    （3）GPC为off，php主动转义的功能关闭
+
+    此处对于中小型企业，如果自己搭建的服务器，例如直接用wamp或者phpnow等快捷方式搭建的服务器，基本上可以满足以上三个条件。
+    ```
 * –os-pwn 获取一个OOB shell，meterpreter或VNC
 * –os-smbrelay 一键获取一个OOB shell，meterpreter或VNC
 * –os-bof 存储过程缓冲区溢出利用

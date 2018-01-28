@@ -135,6 +135,10 @@
     * iis
     * 渗透
     * [google dork](hacker/hei-wang-zhan/google-dork.md)
+    * 木马
+      * [一句话木马](hacker/hei-wang-zhan/yi-ju-hua-mu-ma.md)
+        * 菜刀
+      * 普通木马
   * [黑路由器](hacker/hei-lu-you-qi.md)
   * [一些知识](hacker/yi-xie-zhi-shi.md)
     * [SQL注入](hacker/yi-xie-zhi-shi/sqlzhu-ru.md)
