@@ -115,6 +115,7 @@
         * [盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/mang-zhu-ru.md)
           * [基于布尔的盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/ji-yu-bu-er-de-mang-zhu-ru.md)
           * [基于时间的盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/ji-yu-shi-jian-de-mang-zhu-ru.md)
+        * [Target（目标）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/targetff08-mu-biao-ff09.md)
         * [Request（请求）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/requestff08-qing-qiu-ff09.md)
         * [Optimization（优化）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/optimizationff08-you-hua-ff09.md)
         * [Injection（注入）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/injectionff08-zhu-ru-ff09.md)
@@ -127,7 +128,7 @@
         * [File system access（访问文件系统）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/file-system-accessff08-fang-wen-wen-jian-xi-tong-ff09.md)
         * [Operating system access（操作系统访问）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/operating-system-accessff08-cao-zuo-xi-tong-fang-wen-ff09.md)
         * [Windows注册表访问](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/windowszhu-ce-biao-fang-wen.md)
-        * [Miscellaneous（杂项）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/miscellaneousff08-za-xiang-ff09.md)
+        * Target（目标）
     * cc攻击
     * 旁注
     * 溢出

@@ -2,7 +2,7 @@
 
 这些选项可以用来指定测试哪些参数， 提供自定义的注入payloads和可选篡改脚本。
 
-* -p TESTPARAMETER 可测试的参数（S）
+* -p 指定可测试的参数（比如www.xxx.com?nid=1，那么nid就是可测试的参数）
 * --skip=SKIP Skip testing for given parameter\(s\)
 * --skip-static Skip testing parameters that not appear to be dynamic
 * --param-exclude=.. Regexp to exclude parameters from testing \(e.g. "ses"\)
