@@ -29,8 +29,6 @@
       * [用于命令行模式](pei-zhi/zi-ding-yi-kuai-jie-jian/yong-yu-ming-ling-xing-mo-shi.md)
   * 插件
     * [NedTree](nedtree.md)
-* [数据库](shu-ju-ku.md)
-  * [调优](shu-ju-ku/diao-you.md)
 * [Cookie](cookie.md)
   * [创建cookie](cookie/chuang-jian-cookie.md)
     * [cookie 编码](cookie/cookie-bian-ma.md)
