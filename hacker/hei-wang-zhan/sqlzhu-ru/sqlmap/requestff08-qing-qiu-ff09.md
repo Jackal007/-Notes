@@ -22,7 +22,6 @@
   *     --drop-set-cookie   Ignore Set-Cookie header from response
 
   * –cookie-urlencode URL 编码生成的cookie注入
-
 * --user-agent=AGENT 指定 HTTP User – Agent头
 * --random-agent 使用随机选定的HTTP User – Agent头
 * --host=HOST HTTP Host header value

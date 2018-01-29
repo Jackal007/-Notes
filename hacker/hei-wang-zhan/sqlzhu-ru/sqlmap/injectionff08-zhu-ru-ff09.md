@@ -9,19 +9,12 @@
 * --dbms=DBMS 强制后端的DBMS为此值
 * --dbms-cred=DBMS.. DBMS authentication credentials \(user:password\)
 * –os=OS 强制后端的DBMS操作系统为这个值
-
 * --invalid-bignum Use big numbers for invalidating values
-
 * --invalid-logical Use logical operations for invalidating values
-
 * --invalid-string Use random strings for invalidating values
-
 * --no-cast Turn off payload casting mechanism
-
 * –prefix=PREFIX 注入payload字符串前缀
-
 * –suffix=SUFFIX 注入payload字符串后缀
-
 * –tamper=TAMPER 使用给定的脚本（S）篡改注入数据
 
 

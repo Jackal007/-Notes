@@ -120,7 +120,7 @@
         * [Optimization（优化）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/optimizationff08-you-hua-ff09.md)
         * [Injection（注入）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/injectionff08-zhu-ru-ff09.md)
         * [Detection（检测）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/detectionff08-jian-ce-ff09.md)
-        * [Techniques（技巧）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/techniquesff08-ji-qiao-ff09.md)
+        * [Techniques](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/techniquesff08-ji-qiao-ff09.md)
         * [读取与写入文件](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/du-qu-yu-xie-ru-wen-jian.md)
         * [Enumeration（枚举）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/enumerationff08-mei-ju-ff09.md)
         * [Fingerprint（指纹）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/fingerprintff08-zhi-wen-ff09.md)
@@ -140,7 +140,4 @@
       * 普通木马
   * [黑路由器](hacker/hei-lu-you-qi.md)
   * [一些知识](hacker/yi-xie-zhi-shi.md)
-    * [SQL注入](hacker/yi-xie-zhi-shi/sqlzhu-ru.md)
-    * webshell
-    * [查一个网站的各种信息](hacker/yi-xie-zhi-shi/cha-yi-ge-wang-zhan-de-ge-zhong-xin-xi.md)
 

@@ -1,4 +1,4 @@
-### Techniques（技巧）：
+### Techniques：
 
 这些选项可用于调整具体的SQL注入测试。
 

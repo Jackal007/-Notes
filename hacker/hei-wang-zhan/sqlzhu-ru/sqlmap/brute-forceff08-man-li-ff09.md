@@ -8,8 +8,8 @@
 User-defined function injection（用户自定义函数注入）：  
 这些选项可以用来创建用户自定义函数。
 
-–udf-inject 注入用户自定义函数  
-–shared-lib=SHLIB 共享库的本地路径
+* –udf-inject 注入用户自定义函数
+* –shared-lib=SHLIB 共享库的本地路径
 
 
 
