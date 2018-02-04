@@ -110,32 +110,33 @@
   * [黑网站](hacker/hei-wang-zhan.md)
     * [sql注入](hacker/hei-wang-zhan/sqlzhu-ru.md)
       * [sqlmap](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap.md)
-        * [盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/mang-zhu-ru.md)
-          * [基于布尔的盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/ji-yu-bu-er-de-mang-zhu-ru.md)
-          * [基于时间的盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/ji-yu-shi-jian-de-mang-zhu-ru.md)
-        * [Target（目标）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/targetff08-mu-biao-ff09.md)
-        * [Request（请求）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/requestff08-qing-qiu-ff09.md)
-        * [Optimization（优化）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/optimizationff08-you-hua-ff09.md)
-        * [Injection（注入）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/injectionff08-zhu-ru-ff09.md)
-        * [Detection（检测）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/detectionff08-jian-ce-ff09.md)
-        * [Techniques](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/techniquesff08-ji-qiao-ff09.md)
-        * [读取与写入文件](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/du-qu-yu-xie-ru-wen-jian.md)
-        * [Enumeration（枚举）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/enumerationff08-mei-ju-ff09.md)
-        * [Fingerprint（指纹）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/fingerprintff08-zhi-wen-ff09.md)
-        * [Brute force（蛮力）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/brute-forceff08-man-li-ff09.md)
-        * [File system access（访问文件系统）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/file-system-accessff08-fang-wen-wen-jian-xi-tong-ff09.md)
-        * [Operating system access（操作系统访问）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/operating-system-accessff08-cao-zuo-xi-tong-fang-wen-ff09.md)
-        * [Windows注册表访问](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/windowszhu-ce-biao-fang-wen.md)
+        * [使用](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/shi-yong.md)
+          * [盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/mang-zhu-ru.md)
+            * [基于布尔的盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/ji-yu-bu-er-de-mang-zhu-ru.md)
+            * [基于时间的盲注入](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/ji-yu-shi-jian-de-mang-zhu-ru.md)
+          * [Target（目标）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/targetff08-mu-biao-ff09.md)
+          * [Request（请求）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/requestff08-qing-qiu-ff09.md)
+          * [Optimization（优化）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/optimizationff08-you-hua-ff09.md)
+          * [Injection（注入）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/injectionff08-zhu-ru-ff09.md)
+          * [Detection（检测）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/detectionff08-jian-ce-ff09.md)
+          * [Techniques](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/techniquesff08-ji-qiao-ff09.md)
+          * [读取与写入文件](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/du-qu-yu-xie-ru-wen-jian.md)
+          * [Enumeration（枚举）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/enumerationff08-mei-ju-ff09.md)
+          * [Fingerprint（指纹）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/fingerprintff08-zhi-wen-ff09.md)
+          * [Brute force（蛮力）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/brute-forceff08-man-li-ff09.md)
+          * [Operating system access（操作系统访问）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/operating-system-accessff08-cao-zuo-xi-tong-fang-wen-ff09.md)
+    * [google dork](hacker/hei-wang-zhan/google-dork.md)
     * cc攻击
     * 旁注
     * 溢出
     * iis
     * 渗透
-    * [google dork](hacker/hei-wang-zhan/google-dork.md)
     * 木马
       * [一句话木马](hacker/hei-wang-zhan/yi-ju-hua-mu-ma.md)
         * 菜刀
       * 普通木马
   * [黑路由器](hacker/hei-lu-you-qi.md)
   * [一些知识](hacker/yi-xie-zhi-shi.md)
+
+
 
