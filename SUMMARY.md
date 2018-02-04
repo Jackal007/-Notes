@@ -125,6 +125,7 @@
           * [Fingerprint（指纹）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/fingerprintff08-zhi-wen-ff09.md)
           * [Brute force（蛮力）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/brute-forceff08-man-li-ff09.md)
           * [Operating system access（操作系统访问）](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/operating-system-accessff08-cao-zuo-xi-tong-fang-wen-ff09.md)
+        * [工作原理](hacker/hei-wang-zhan/sqlzhu-ru/sqlmap/gong-zuo-yuan-li.md)
     * [google dork](hacker/hei-wang-zhan/google-dork.md)
     * cc攻击
     * 旁注
@@ -137,6 +138,4 @@
       * 普通木马
   * [黑路由器](hacker/hei-lu-you-qi.md)
   * [一些知识](hacker/yi-xie-zhi-shi.md)
-
-
 
