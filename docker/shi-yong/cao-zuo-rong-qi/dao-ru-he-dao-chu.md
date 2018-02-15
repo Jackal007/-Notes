@@ -15,7 +15,7 @@ $ sudo docker export 7691a814370e > ubuntu.tar
 
 ### 导入容器快照 {#导入容器快照}
 
-可以使用`docker import`从容器快照文件中再导入为镜像，例如
+可以使用`docker import`从容器快照文件导入为镜像，例如
 
 ```
 $ cat ubuntu.tar | sudo docker import - test/ubuntu:v1.0

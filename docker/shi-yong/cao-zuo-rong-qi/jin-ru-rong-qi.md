@@ -2,6 +2,8 @@
 
 在使用`-d`参数时，容器启动后会进入后台。 某些时候需要进入容器进行操作，有很多种方法，包括使用`docker attach`命令或`nsenter`工具等。
 
+---
+
 ### attach 命令 {#attach-命令}
 
 `docker attach`是Docker自带的命令。下面示例如何使用该命令。

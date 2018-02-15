@@ -48,7 +48,7 @@
 * [Docker](docker.md)
   * [基本概念](docker/ji-ben-gai-nian.md)
     * [镜像](docker/ji-ben-gai-nian/jing-xiang.md)
-      * [利用commit理解镜像构成](docker/ji-ben-gai-nian/jing-xiang/li-yong-commit-li-jie-jing-xiang-gou-cheng.md)
+      * [理解镜像构成](docker/ji-ben-gai-nian/jing-xiang/li-yong-commit-li-jie-jing-xiang-gou-cheng.md)
     * [容器](docker/ji-ben-gai-nian/rong-qi.md)
     * [仓库](docker/ji-ben-gai-nian/cang-ku.md)
   * [使用](docker/shi-yong.md)
@@ -60,6 +60,7 @@
         * [ADD 更高级的文件复制](docker/shi-yong/shi-yong-jing-xiang/ding-zhi-jing-xiang/add-geng-gao-ji-de-wen-jian-fu-zhi.md)
     * [操作容器](docker/shi-yong/cao-zuo-rong-qi.md)
       * [启动](docker/shi-yong/cao-zuo-rong-qi/qi-dong.md)
+        * [后台运行](docker/shi-yong/cao-zuo-rong-qi/qi-dong/hou-tai-yun-xing.md)
       * [进入容器](docker/shi-yong/cao-zuo-rong-qi/jin-ru-rong-qi.md)
       * [终止](docker/shi-yong/cao-zuo-rong-qi/zhong-zhi.md)
       * [导入和导出](docker/shi-yong/cao-zuo-rong-qi/dao-ru-he-dao-chu.md)
@@ -68,10 +69,10 @@
       * [Docker Hub](docker/shi-yong/fang-wen-cang-ku/docker-hub.md)
       * [私有仓库](docker/shi-yong/fang-wen-cang-ku/si-you-cang-ku.md)
       * [配置文件](docker/shi-yong/fang-wen-cang-ku/pei-zhi-wen-jian.md)
-    * 数据管理
-      * 数据卷
-      * 数据卷容器
-      * 备份、恢复、迁移数据卷
+    * [数据管理](docker/shi-yong/shu-ju-guan-li.md)
+      * [数据卷](docker/shi-yong/shu-ju-guan-li/shu-ju-juan.md)
+      * [数据卷容器](docker/shi-yong/shu-ju-guan-li/shu-ju-juan-rong-qi.md)
+      * [备份、恢复、迁移数据卷](docker/shi-yong/shu-ju-guan-li/bei-fen-3001-hui-fu-3001-qian-yi-shu-ju-juan.md)
     * [使用网络](docker/shi-yong/shi-yong-wang-luo.md)
       * [外部访问容器](docker/shi-yong/shi-yong-wang-luo/wai-bu-fang-wen-rong-qi.md)
       * 容器互联
@@ -79,7 +80,7 @@
     * 安全
     * 底层实现
   * 热门镜像
-    * Ubuntu
+    * [Ubuntu](docker/ubuntu.md)
     * CentOS
     * MySQL
     * WordPress
