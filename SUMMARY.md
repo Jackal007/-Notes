@@ -127,6 +127,8 @@
   * 关联算法
   * 分类算法
   * 聚类算法
+  * 算法评估
+    * [roc曲线](da-shu-ju/rocqu-xian.md)
 * [HACKER](hacker.md)
   * [黑网站](hacker/hei-wang-zhan.md)
     * [sql注入](hacker/hei-wang-zhan/sqlzhu-ru.md)
