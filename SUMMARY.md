@@ -133,6 +133,7 @@
     * [recall](da-shu-ju/recall.md)
     * [混淆矩阵](da-shu-ju/hun-yao-ju-zhen.md)
     * [正确率、召回率和F值](da-shu-ju/zheng-que-lv-3001-zhao-hui-lv-he-f-zhi.md)
+    * [选择评估方法](da-shu-ju/xuan-ze-ping-gu-fang-fa.md)
 * [HACKER](hacker.md)
   * [黑网站](hacker/hei-wang-zhan.md)
     * [sql注入](hacker/hei-wang-zhan/sqlzhu-ru.md)
