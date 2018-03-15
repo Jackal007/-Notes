@@ -129,6 +129,7 @@
   * 聚类算法
   * [算法评估](da-shu-ju/suan-fa-ping-gu.md)
     * [roc曲线](da-shu-ju/rocqu-xian.md)
+    * [auc](da-shu-ju/auc.md)
     * [recall](da-shu-ju/recall.md)
     * [混淆矩阵](da-shu-ju/hun-yao-ju-zhen.md)
 * [HACKER](hacker.md)
