@@ -1,10 +1,12 @@
+# Tomcat
+
 from： [http://blog.csdn.net/ithomer/article/details/7839906](http://blog.csdn.net/ithomer/article/details/7839906)
 
-# apache和tomcat的区别：
+## apache和tomcat的区别：
 
-> #### apache：apache httpd
+> ### apache：apache httpd
 >
-> #### tomcat：apache tomcat
+> ### tomcat：apache tomcat
 >
 > apache也是一家基金会公司
 
@@ -29,9 +31,9 @@ tomcat只是一个servlet\(jsp也翻译成servlet\)容器，可以认为是apach
 3）Apache和Tomcat整合使用：
 
 > 如果客户端请求的是静态页面，则只需要Apache服务器响应请求；  
->    
+>   
 > 如果客户端请求动态页面，则是Tomcat服务器响应请求，将解析的JSP等网页代码解析后回传给Apache服务器，再经Apache返回给浏览器端  
->    
+>   
 > 这是因为jsp是服务器端解释代码的，Tomcat只做动态代码解析，Apache回传解析好的静态代码，Apache+Tomcat这样整合就可以减少Tomcat的服务开销 。
 
 4）Apache和Tomcat是独立的，在同一台服务器上可以集成。

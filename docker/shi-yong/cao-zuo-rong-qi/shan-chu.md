@@ -1,8 +1,10 @@
+# 删除
+
 ## 删除容器 {#删除容器}
 
 可以使用`docker rm`来删除一个处于终止状态的容器。 例如
 
-```
+```text
 $sudo docker rm  trusting_newton
 trusting_newton
 ```

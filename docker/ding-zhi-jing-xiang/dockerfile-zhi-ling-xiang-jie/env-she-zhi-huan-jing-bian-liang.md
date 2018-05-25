@@ -1,44 +1,65 @@
-### ENV 设置环境变量 {#env-设置环境变量}
+# ENV 设置环境变量
 
 格式有两种：
 
-* `ENV `
+* `ENV`
+
   `<`
+
   `key`
+
   `>`
+
   `<`
+
   `value`
+
   `>`
-* `ENV `
+
+* `ENV`
+
   `<`
+
   `key1`
+
   `>`
+
   `=`
+
   `<`
+
   `value1`
+
   `>`
+
   `<`
+
   `key2`
+
   `>`
+
   `=`
+
   `<`
+
   `value2`
+
   `>`
+
   `...`
 
 这个指令很简单，就是设置环境变量而已，无论是后面的其它指令，如`RUN`，还是运行时的应用，都可以直接使用这里定义的环境变量。
 
-```
+```text
 ENV VERSION=1.0 DEBUG=on \
     NAME="Happy Feet"
-
 ```
 
 这个例子中演示了如何换行，以及对含有空格的值用双引号括起来的办法，这和 Shell 下的行为是一致的。
 
 定义了环境变量，那么在后续的指令中，就可以使用这个环境变量。比如在官方`node`镜像`Dockerfile`中，就有类似这样的代码：
 
-```
+```text
 ENV
  NODE_VERSION 
 7.2
@@ -54,7 +75,7 @@ ode-v
 $NODE_VERSION
 -linux-x64.tar.xz"
  \
-  
+
 &
 &
  curl -SLO 
@@ -63,11 +84,11 @@ odejs.org/dist/v
 $NODE_VERSION
 /SHASUMS256.txt.asc"
  \
-  
+
 &
 &
  gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc \
-  
+
 &
 &
  grep 
@@ -75,7 +96,7 @@ $NODE_VERSION
 $NODE_VERSION
 -linux-x64.tar.xz\$"
  SHASUMS256.txt | sha256sum -c - \
-  
+
 &
 &
  tar -xJf 
@@ -85,7 +106,7 @@ $NODE_VERSION
  -C /usr/
 local
  --strip-components=1 \
-  
+
 &
 &
  rm 
@@ -93,7 +114,7 @@ local
 $NODE_VERSION
 -linux-x64.tar.xz"
  SHASUMS256.txt.asc SHASUMS256.txt \
-  
+
 &
 &
  ln 
@@ -104,7 +125,6 @@ local
 ode /usr/
 local
 /bin/nodejs
-
 ```
 
 在这里先定义了环境变量`NODE_VERSION`，其后的`RUN`这层里，多次使用`$NODE_VERSION`来进行操作定制。可以看到，将来升级镜像构建版本的时候，只需要更新`7.2.0`即可，`Dockerfile`构建维护变得更轻松了。

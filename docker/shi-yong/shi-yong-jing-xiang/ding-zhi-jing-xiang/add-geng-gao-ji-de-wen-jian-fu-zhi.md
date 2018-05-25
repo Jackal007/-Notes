@@ -1,4 +1,4 @@
-# ADD 更高级的复制文件
+# ADD 更高级的文件复制
 
 `ADD`指令和`COPY`的格式和性质基本一致。但是在`COPY`基础上增加了一些功能。
 
@@ -8,7 +8,7 @@
 
 在某些情况下，这个自动解压缩的功能非常有用，比如官方镜像`ubuntu`中：
 
-```
+```text
 FROM scratch
 ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
 ...

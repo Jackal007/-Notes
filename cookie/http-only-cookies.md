@@ -1,3 +1,5 @@
+# HTTP-Only cookies
+
 微软的 IE6 SP1 在 cookie 中引入了一个新的选项：`HTTP-only`，`HTTP-Only`背后的意思是告之浏览器该 cookie 绝不能通过 JavaScript 的`document.cookie`属性访问。设计该特征意在提供一个安全措施来帮助阻止通过 JavaScript 发起的跨站脚本攻击 \(XSS\) 窃取 cookie 的行为（我会在另一篇博客中讨论安全问题，本篇如此已足够）。今天 Firefox2.0.0.5+、Opera9.5+、Chrome 都支持 HTTP-Only cookie。3.2 版本的 Safari 仍不支持。
 
 要创建一个 HTTP-Only cookie，只要向你的 cookie 中添加一个`HTTP-Only`标记即可：

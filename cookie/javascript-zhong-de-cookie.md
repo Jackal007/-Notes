@@ -1,3 +1,5 @@
+# JavaScript 中的 cookie
+
 在 JavaScript 中通过`document.cookie`属性，你可以创建、维护和删除 cookie。创建 cookie 时该属性等同于`Set-Cookie`消息头，而在读取 cookie 时则等同于`Cookie`消息头。在创建一个 cookie 时，你需要使用和`Set-Cookie`期望格式相同的字符串：
 
 | document.cookie="name=Nicholas;domain=nczonline.net;path=/"; |

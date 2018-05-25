@@ -1,3 +1,5 @@
+# 使用失效日期
+
 当 cookie 创建时指定了失效日期，这个失效日期则关联了以`name-domain-path-secure`为标识的 cookie。要改变一个 cookie 的失效日期，你必须指定同样的组合。当改变一个 cookie 的值时，你不必每次都设置失效日期，因为它不是 cookie 标识信息的组成部分。例如：
 
 | Set-Cookie:name=Mike;expires=Sat,03 May 202517:44:22 GMT |

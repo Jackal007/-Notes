@@ -1,10 +1,12 @@
-### 构建镜像 {#构建镜像}
+# 构建镜像
+
+## 构建镜像 {#构建镜像}
 
 好了，让我们再回到之前定制的 nginx 镜像的 Dockerfile 来。现在我们明白了这个 Dockerfile 的内容，那么让我们来构建这个镜像吧。
 
 在`Dockerfile`文件所在目录执行：
 
-```
+```text
 $ docker build -t nginx:v3 .
 Sending build context to Docker daemon 2.048 kB
 Step 1 : FROM nginx
@@ -20,13 +22,13 @@ Successfully built 44aa4490ce2c
 
 这里我们使用了`docker build`命令进行镜像构建。其格式为：
 
-```
+```text
 docker build [选项] <上下文路径/URL/->
 ```
 
 在这里我们指定了最终镜像的名称`-t nginx:v3`，构建成功后，我们可以像之前运行`nginx:v2`那样来运行这个镜像，其结果会和`nginx:v2`一样。
 
-### 镜像构建上下文（Context） {#镜像构建上下文（context）}
+## 镜像构建上下文（Context） {#镜像构建上下文（context）}
 
 如果注意，会看到`docker build`命令最后有一个`.`。`.`表示当前目录，而`Dockerfile`就在当前目录，因此不少初学者以为这个路径是在指定`Dockerfile`所在路径，这么理解其实是不准确的。如果对应上面的命令格式，你可能会发现，这是在指定**上下文路径**。那么什么是上下文呢？
 
@@ -38,7 +40,7 @@ docker build [选项] <上下文路径/URL/->
 
 如果在`Dockerfile`中这么写：
 
-```
+```text
 COPY./package.json /app/
 ```
 
@@ -50,7 +52,7 @@ COPY./package.json /app/
 
 如果观察`docker build`输出，我们其实已经看到了这个发送上下文的过程：
 
-```
+```text
 $ docker build -t nginx:v3 .
 Sending build context to Docker daemon 2.048 kB
 ...

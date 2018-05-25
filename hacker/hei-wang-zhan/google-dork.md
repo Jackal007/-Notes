@@ -1,8 +1,11 @@
-### google search抓取密码的相关语法 {#google-search抓取密码的相关语法}
+# google dork
 
 * 1 “Login:
+
   _” “password =_
+
   ” filetype: xls \( 搜索存储在excel文件中含有password的数据\)。
+
 * 2 allinurl: auth\_user\_file.txt \(搜索包含在服务器上的 auth\_user\_file.txt 的文件）。
 * 3 filetype: xls inurl: “password.xls” \(查找 用户名和密码以excel格式）这个命令可以变为“admin.xls”.
 * 4 intitle: login password \(获取登陆页面的连接，登陆关键词在标题中。\)
@@ -16,13 +19,9 @@
 * 12 index.of.secret \(显示包含机密的文档，.gov类型的网站除外\) 还可以使用: index.of.private
 * 13 filetype: xls username password email \(查找表格中含有username和password的列的xls文件\).
 * 14.”\# PhpMyAdmin MySQL-Dump” filetype: txt \(列出包含敏感数据的基于php的页面\)
-
 * 15 inurl: ipsec.secrets-history-bugs \(包含只有超级用户才有的敏感数据\). 还有一种旧的用法 inurl: ipsec.secrets “holds shared secrets”
-
 * 16 inurl: ipsec.conf-intitle: manpage
-
 * 17 inurl: “wvdial.conf” intext: “password” \(显示包含电话号码，用户名和密码的连接。）
-
 * 18inurl: “user.xls” intext: “password” \(显示用户名和密码存储在xls的链接。\)
 
 \*19 filetype: ldb admin \(web服务器查找存储在数据库中没有呗googledork删去的密码。）

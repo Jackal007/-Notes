@@ -1,10 +1,10 @@
-## 获取镜像 {#获取镜像}
+# 获取镜像
 
 之前提到过，[Docker Hub](https://hub.docker.com/explore/)上有大量的高质量的镜像可以用，这里我们就说一下怎么获取这些镜像并运行。
 
 从 Docker Registry 获取镜像的命令是`docker pull`。其命令格式为：
 
-```
+```text
 docker pull [选项] [Docker Registry地址]<仓库名>:<标签>
 ```
 
@@ -12,11 +12,12 @@ docker pull [选项] [Docker Registry地址]<仓库名>:<标签>
 
 * Docker Registry地址：地址的格式一般是`<域名/IP>[:端口号]`。默认地址是 Docker Hub。
 * 仓库名：如之前所说，这里的仓库名是两段式名称，既`<用户名>/<软件名>`。对于 Docker Hub，如果不给出用户名，则默认为
+
   `library`，也就是官方镜像。
 
 比如：
 
-```
+```text
 $ docker pull ubuntu:14.04
 14.04: Pulling from library/ubuntu
 bf5d46315322: Pull complete
